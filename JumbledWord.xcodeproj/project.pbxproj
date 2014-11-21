@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		879856F11A04D1E500B21153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879856F01A04D1E500B21153 /* Foundation.framework */; };
+		879856F31A04D1E500B21153 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879856F21A04D1E500B21153 /* CoreGraphics.framework */; };
+		879856F51A04D1E500B21153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879856F41A04D1E500B21153 /* UIKit.framework */; };
+		879856FB1A04D1E500B21153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 879856F91A04D1E500B21153 /* InfoPlist.strings */; };
+		879856FD1A04D1E500B21153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879856FC1A04D1E500B21153 /* main.m */; };
+		879857011A04D1E500B21153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879857001A04D1E500B21153 /* AppDelegate.m */; };
+		879857041A04D1E500B21153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879857021A04D1E500B21153 /* Main.storyboard */; };
+		879857071A04D1E500B21153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879857061A04D1E500B21153 /* ViewController.m */; };
+		879857091A04D1E500B21153 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879857081A04D1E500B21153 /* Images.xcassets */; };
+		879857101A04D1E500B21153 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8798570F1A04D1E500B21153 /* XCTest.framework */; };
+		879857111A04D1E500B21153 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879856F01A04D1E500B21153 /* Foundation.framework */; };
+		879857121A04D1E500B21153 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 879856F41A04D1E500B21153 /* UIKit.framework */; };
+		8798571A1A04D1E500B21153 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 879857181A04D1E500B21153 /* InfoPlist.strings */; };
+		8798571C1A04D1E500B21153 /* JumbledWordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8798571B1A04D1E500B21153 /* JumbledWordTests.m */; };
+		879857261A04DE7100B21153 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 879857251A04DE7100B21153 /* dictionary.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		879857131A04D1E500B21153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 879856E51A04D1E500B21153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 879856EC1A04D1E500B21153;
+			remoteInfo = JumbledWord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		879856ED1A04D1E500B21153 /* JumbledWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumbledWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879856F01A04D1E500B21153 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		879856F21A04D1E500B21153 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		879856F41A04D1E500B21153 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		879856F81A04D1E500B21153 /* JumbledWord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumbledWord-Info.plist"; sourceTree = "<group>"; };
+		879856FA1A04D1E500B21153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		879856FC1A04D1E500B21153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		879856FE1A04D1E500B21153 /* JumbledWord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JumbledWord-Prefix.pch"; sourceTree = "<group>"; };
+		879856FF1A04D1E500B21153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		879857001A04D1E500B21153 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		879857031A04D1E500B21153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879857051A04D1E500B21153 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		879857061A04D1E500B21153 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		879857081A04D1E500B21153 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8798570E1A04D1E500B21153 /* JumbledWordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumbledWordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8798570F1A04D1E500B21153 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		879857171A04D1E500B21153 /* JumbledWordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JumbledWordTests-Info.plist"; sourceTree = "<group>"; };
+		879857191A04D1E500B21153 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8798571B1A04D1E500B21153 /* JumbledWordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumbledWordTests.m; sourceTree = "<group>"; };
+		879857251A04DE7100B21153 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879856EA1A04D1E500B21153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879856F31A04D1E500B21153 /* CoreGraphics.framework in Frameworks */,
+				879856F51A04D1E500B21153 /* UIKit.framework in Frameworks */,
+				879856F11A04D1E500B21153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8798570B1A04D1E500B21153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879857101A04D1E500B21153 /* XCTest.framework in Frameworks */,
+				879857121A04D1E500B21153 /* UIKit.framework in Frameworks */,
+				879857111A04D1E500B21153 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		879856E41A04D1E500B21153 = {
+			isa = PBXGroup;
+			children = (
+				879856F61A04D1E500B21153 /* JumbledWord */,
+				879857151A04D1E500B21153 /* JumbledWordTests */,
+				879856EF1A04D1E500B21153 /* Frameworks */,
+				879856EE1A04D1E500B21153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		879856EE1A04D1E500B21153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879856ED1A04D1E500B21153 /* JumbledWord.app */,
+				8798570E1A04D1E500B21153 /* JumbledWordTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879856EF1A04D1E500B21153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				879856F01A04D1E500B21153 /* Foundation.framework */,
+				879856F21A04D1E500B21153 /* CoreGraphics.framework */,
+				879856F41A04D1E500B21153 /* UIKit.framework */,
+				8798570F1A04D1E500B21153 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		879856F61A04D1E500B21153 /* JumbledWord */ = {
+			isa = PBXGroup;
+			children = (
+				879856FF1A04D1E500B21153 /* AppDelegate.h */,
+				879857001A04D1E500B21153 /* AppDelegate.m */,
+				879857021A04D1E500B21153 /* Main.storyboard */,
+				879857051A04D1E500B21153 /* ViewController.h */,
+				879857061A04D1E500B21153 /* ViewController.m */,
+				879857081A04D1E500B21153 /* Images.xcassets */,
+				879856F71A04D1E500B21153 /* Supporting Files */,
+			);
+			path = JumbledWord;
+			sourceTree = "<group>";
+		};
+		879856F71A04D1E500B21153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879857251A04DE7100B21153 /* dictionary.txt */,
+				879856F81A04D1E500B21153 /* JumbledWord-Info.plist */,
+				879856F91A04D1E500B21153 /* InfoPlist.strings */,
+				879856FC1A04D1E500B21153 /* main.m */,
+				879856FE1A04D1E500B21153 /* JumbledWord-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		879857151A04D1E500B21153 /* JumbledWordTests */ = {
+			isa = PBXGroup;
+			children = (
+				8798571B1A04D1E500B21153 /* JumbledWordTests.m */,
+				879857161A04D1E500B21153 /* Supporting Files */,
+			);
+			path = JumbledWordTests;
+			sourceTree = "<group>";
+		};
+		879857161A04D1E500B21153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879857171A04D1E500B21153 /* JumbledWordTests-Info.plist */,
+				879857181A04D1E500B21153 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879856EC1A04D1E500B21153 /* JumbledWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8798571F1A04D1E500B21153 /* Build configuration list for PBXNativeTarget "JumbledWord" */;
+			buildPhases = (
+				879856E91A04D1E500B21153 /* Sources */,
+				879856EA1A04D1E500B21153 /* Frameworks */,
+				879856EB1A04D1E500B21153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumbledWord;
+			productName = JumbledWord;
+			productReference = 879856ED1A04D1E500B21153 /* JumbledWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8798570D1A04D1E500B21153 /* JumbledWordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879857221A04D1E500B21153 /* Build configuration list for PBXNativeTarget "JumbledWordTests" */;
+			buildPhases = (
+				8798570A1A04D1E500B21153 /* Sources */,
+				8798570B1A04D1E500B21153 /* Frameworks */,
+				8798570C1A04D1E500B21153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879857141A04D1E500B21153 /* PBXTargetDependency */,
+			);
+			name = JumbledWordTests;
+			productName = JumbledWordTests;
+			productReference = 8798570E1A04D1E500B21153 /* JumbledWordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879856E51A04D1E500B21153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					8798570D1A04D1E500B21153 = {
+						TestTargetID = 879856EC1A04D1E500B21153;
+					};
+				};
+			};
+			buildConfigurationList = 879856E81A04D1E500B21153 /* Build configuration list for PBXProject "JumbledWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879856E41A04D1E500B21153;
+			productRefGroup = 879856EE1A04D1E500B21153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879856EC1A04D1E500B21153 /* JumbledWord */,
+				8798570D1A04D1E500B21153 /* JumbledWordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879856EB1A04D1E500B21153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879857091A04D1E500B21153 /* Images.xcassets in Resources */,
+				879856FB1A04D1E500B21153 /* InfoPlist.strings in Resources */,
+				879857261A04DE7100B21153 /* dictionary.txt in Resources */,
+				879857041A04D1E500B21153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8798570C1A04D1E500B21153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8798571A1A04D1E500B21153 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879856E91A04D1E500B21153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879857071A04D1E500B21153 /* ViewController.m in Sources */,
+				879857011A04D1E500B21153 /* AppDelegate.m in Sources */,
+				879856FD1A04D1E500B21153 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8798570A1A04D1E500B21153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8798571C1A04D1E500B21153 /* JumbledWordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879857141A04D1E500B21153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 879856EC1A04D1E500B21153 /* JumbledWord */;
+			targetProxy = 879857131A04D1E500B21153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		879856F91A04D1E500B21153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879856FA1A04D1E500B21153 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		879857021A04D1E500B21153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879857031A04D1E500B21153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879857181A04D1E500B21153 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879857191A04D1E500B21153 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8798571D1A04D1E500B21153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8798571E1A04D1E500B21153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879857201A04D1E500B21153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbledWord/JumbledWord-Prefix.pch";
+				INFOPLIST_FILE = "JumbledWord/JumbledWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		879857211A04D1E500B21153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbledWord/JumbledWord-Prefix.pch";
+				INFOPLIST_FILE = "JumbledWord/JumbledWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		879857231A04D1E500B21153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumbledWord.app/JumbledWord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbledWord/JumbledWord-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JumbledWordTests/JumbledWordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		879857241A04D1E500B21153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JumbledWord.app/JumbledWord";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JumbledWord/JumbledWord-Prefix.pch";
+				INFOPLIST_FILE = "JumbledWordTests/JumbledWordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879856E81A04D1E500B21153 /* Build configuration list for PBXProject "JumbledWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8798571D1A04D1E500B21153 /* Debug */,
+				8798571E1A04D1E500B21153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8798571F1A04D1E500B21153 /* Build configuration list for PBXNativeTarget "JumbledWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879857201A04D1E500B21153 /* Debug */,
+				879857211A04D1E500B21153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		879857221A04D1E500B21153 /* Build configuration list for PBXNativeTarget "JumbledWordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879857231A04D1E500B21153 /* Debug */,
+				879857241A04D1E500B21153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879856E51A04D1E500B21153 /* Project object */;
+}
